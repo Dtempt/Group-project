@@ -26,7 +26,11 @@ namespace Sydneyotel.Project.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Welcome to Contact Us";
-
+            return View();
+        }
+        public ActionResult Login()
+        {
+            ViewBag.Message = "Welcome to Login form";
             return View();
         }
     }
